@@ -1,3 +1,31 @@
+
+
+# LIVE LINK
+[LIVE LINK](https://invoice-app-sigma-eight.vercel.app/)
+
+
+# Screenshots
+
+## Feching List of Invoices
+<img width="1437" alt="Screenshot 2022-12-14 at 4 32 20 AM" src="https://user-images.githubusercontent.com/35723915/207463768-12ea485a-5ed4-43e3-ba33-36894c7de3f5.png">
+
+## Feching List of toggle view
+<img width="928" alt="Screenshot 2022-12-14 at 4 32 53 AM" src="https://user-images.githubusercontent.com/35723915/207463813-8c62aaad-fee1-4d33-b2c1-d9d4cbfab36f.png">
+
+## Create new invoice
+<img width="947" alt="Screenshot 2022-12-14 at 4 33 13 AM" src="https://user-images.githubusercontent.com/35723915/207463846-a590c512-08d4-47e1-9d7c-8a578ab337bd.png">
+
+## No invoice found
+<img width="921" alt="Screenshot 2022-12-14 at 4 34 54 AM" src="https://user-images.githubusercontent.com/35723915/207464062-a6dfb98f-a226-4e22-b240-630e9dcd63d6.png">
+
+
+# env file data
+
+ USER_ID: `email.js service id`, //userID
+  TEMPLATE_ID: email js template id,
+  PUBLIC_ID: email js public id
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
