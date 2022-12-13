@@ -1,0 +1,56 @@
+:root {
+  --orange: red;
+  --white: #ffffff;
+  --black: #000000;
+  --secondary: #e1e1e1;
+  --red: #d3302f;
+  --dark-orange: #c33636;
+}
+* {
+  box-sizing: border-box;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  margin: 0;
+  padding: 0;
+  background: #e1e1e1;
+}
+div,
+p,
+a,
+li,
+td {
+  -webkit-text-size-adjust: none;
+}
+.ReadMsgBody {
+  width: 100%;
+  background-color: #ffffff;
+}
+.ExternalClass {
+  width: 100%;
+  background-color: #ffffff;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #e1e1e1;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  width: 100%;
+}
+
+div {
+  box-sizing: border-box;
+}
+section {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

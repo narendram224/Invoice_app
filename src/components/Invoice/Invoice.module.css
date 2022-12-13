@@ -1,0 +1,302 @@
+.visibleMobile {
+  display: none;
+}
+.hiddenMobile {
+  display: block;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    width: auto !important;
+  }
+  table[class="fullTable"] {
+    width: 96% !important;
+    clear: both;
+  }
+  table[class="fullPadding"] {
+    width: 85% !important;
+    clear: both;
+  }
+  table[class="col"] {
+    width: 45% !important;
+  }
+  .erase {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  table[class="fullTable"] {
+    width: 100% !important;
+    clear: both;
+  }
+  table[class="fullPadding"] {
+    width: 85% !important;
+    clear: both;
+  }
+  table[class="col"] {
+    width: 100% !important;
+    clear: both;
+  }
+  table[class="col"] td {
+    text-align: left !important;
+  }
+  .erase {
+    display: none;
+    font-size: 0;
+    max-height: 0;
+    line-height: 0;
+    padding: 0;
+  }
+  .visibleMobile {
+    display: block !important;
+  }
+  .hiddenMobile {
+    display: none !important;
+  }
+  .itemTable {
+    width: 100% !important;
+  }
+  .mainInfo {
+    width: 100% !important;
+  }
+}
+.invoiceText {
+  font-size: 21px;
+  color: #ff0000;
+  letter-spacing: -1px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1;
+  vertical-align: top;
+  text-align: right;
+}
+.orderInfo {
+  font-size: 12px;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+  line-height: 18px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.thankInfo {
+  font-size: 12px;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+  line-height: 18px;
+  vertical-align: top;
+  text-align: left;
+}
+.item {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #5b5b5b;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: top;
+  padding: 0 10px 7px 0;
+}
+.sku {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #5b5b5b;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: top;
+  padding: 0 0 7px;
+}
+.quantity {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #5b5b5b;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: top;
+  padding: 0 0 7px;
+}
+.subT {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #1e2b33;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: top;
+  padding: 0 0 7px;
+}
+.article {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #ff0000;
+  line-height: 18px;
+  vertical-align: top;
+  padding: 10px 0;
+  width: 27%;
+  border-bottom: 1px solid #a5a5a5;
+}
+.mh {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #646a6e;
+  line-height: 18px;
+  vertical-align: top;
+  padding: 10px 0;
+  width: 20%;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+.center {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #646a6e;
+  line-height: 18px;
+  vertical-align: top;
+  padding: 10px 0;
+  width: 10%;
+  border-bottom: 1px solid #a5a5a5;
+}
+.right {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #1e2b33;
+  line-height: 18px;
+  vertical-align: top;
+  padding: 10px 0;
+  border-bottom: 1px solid #a5a5a5;
+}
+.article2 {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #ff0000;
+  line-height: 18px;
+  vertical-align: top;
+  padding: 10px 0;
+}
+.mh2 {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #646a6e;
+  line-height: 18px;
+  vertical-align: top;
+  padding: 10px 0;
+  width: 20%;
+}
+.center2 {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #646a6e;
+  line-height: 18px;
+  vertical-align: top;
+  padding: 10px 0;
+  width: 10%;
+}
+
+.amount {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #1e2b33;
+  line-height: 18px;
+  vertical-align: top;
+  padding: 10px 0;
+  width: 20%;
+  border-bottom: 1px solid #a5a5a5;
+}
+.subT1 {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #646a6e;
+  line-height: 22px;
+  vertical-align: top;
+  text-align: right;
+}
+.amount2 {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #646a6e;
+  line-height: 22px;
+  vertical-align: top;
+  text-align: center;
+  white-space: nowrap;
+}
+.ship {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #646a6e;
+  line-height: 22px;
+  vertical-align: top;
+  text-align: right;
+}
+.billing {
+  font-size: 11px;
+  font-family: "Open Sans", sans-serif;
+  color: #5b5b5b;
+  line-height: 1;
+  vertical-align: top;
+}
+.books {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #5b5b5b;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+.itemTable {
+  width: 500px;
+  font-size: 14px;
+  color: #5b5b5b;
+  line-height: 20px;
+  background-color: white;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+.tableHead {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: #5b5b5b;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: top;
+  padding: 0 10px 7px 0;
+  display: inline-block;
+}
+
+.tbody {
+  display: inline-block;
+  width: 94%;
+  margin: 0 16px;
+}
+
+.tHeadStyle {
+  border-bottom: 1px solid #5b5b5b;
+  outline: none;
+  padding: 10px 0px;
+}
+.bordered {
+  border-bottom: 1px solid #a5a5a5;
+}
+.bordered:hover {
+  background-color: rgb(254, 242, 242);
+}
+.mainInfo {
+  background-color: white;
+  padding-bottom: 20px;
+}
+.invoiceContainer {
+  position: relative;
+}
+
+.downloadPdf {
+  position: absolute;
+  top: 34px;
+  right: 20px;
+  background-color: var(--orange);
+  border: none;
+  color: white;
+  border-radius: 4px;
+  padding: 0.4rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.downloadPdf:hover {
+  background: var(--dark-orange);
+}

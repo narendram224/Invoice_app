@@ -1,0 +1,26 @@
+.inputField {
+  font: inherit;
+  letter-spacing: inherit;
+  color: black;
+  border: 0px;
+  box-sizing: content-box;
+  background: none;
+  height: 2em;
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0px;
+  width: 100%;
+  animation-name: TextField_mui-auto-fill-cancel__p71AV;
+  animation-duration: 10ms;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 8px 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #e1e1e1;
+
+  border-radius: 0.2rem;
+  background-color: var(--white);
+}

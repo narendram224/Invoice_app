@@ -1,0 +1,17 @@
+.sideMenuContainer {
+  height: calc(100vh - 60px);
+  background-color: var(--white);
+  width: 100px;
+  box-sizing: border-box;
+  padding: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  display: none;
+}
+@media (min-width: 768px) {
+  .sideMenuContainer {
+    display: block;
+  }
+}
