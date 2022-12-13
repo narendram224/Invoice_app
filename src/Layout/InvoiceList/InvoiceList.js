@@ -23,12 +23,10 @@ const InvoiceList = () => {
     }
     setFilteredList(invoiceInfo)
   }
-  console.log("[invoiceInfo]", invoiceInfo)
   const handleFilter = (filter) => {
     dispatch(saveSelectedFilter(filter))
     filterListData(filter)
   }
-  console.log("[selectedStatus]", selectedStatus)
 
   return (
     <div className={styles.invoiceList}>

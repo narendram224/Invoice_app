@@ -34,8 +34,6 @@ const InvoiceForm = () => {
   const dispatch = useDispatch()
   const [selectedStatus, setSelectedStatus] = useState("paid")
 
-  // const [status, setStatus] = useState()
-
   const handleChangeItem = (event, index) => {
     const { value, name } = event.target
 
@@ -43,14 +41,6 @@ const InvoiceForm = () => {
       if (ind === index) return Object.assign({}, el, { [name]: value })
       return el
     })
-    console.log("newArr", newArr)
-
-    // console.log("Value", value, name)
-    // let newArr = [...items]
-    // let oldValue = newArr[index]
-    // console.log("[oldValue]", oldValue)
-
-    // oldValue[name] = value
     setItems(newArr)
   }
   const addItem = () => {
@@ -84,7 +74,6 @@ const InvoiceForm = () => {
   })
   const handleFormChange = (e) => {
     const { name, value } = e.target
-    console.log("Value", e.target.name, e.target.value)
     setFormInfo({ ...formInfo, [name]: value })
   }
   const calculateSum = (tax = 0) => {

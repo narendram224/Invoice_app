@@ -7,15 +7,7 @@ import Button from "../Button/Button"
 
 const Invoice = () => {
   const { selectedInvoice } = useSelector((state) => state.invoice)
-  console.log("invloce", selectedInvoice)
-  const calculateSum = (tax = 0) => {
-    return selectedInvoice?.items?.reduce((sum, item) => {
-      return parseFloat(sum + parseInt(item?.amount) + tax).toFixed(2)
-    }, 0)
-  }
-  console.log("[sum]", calculateSum())
   const reportTemplateRef = useRef(null)
-
   const handleGeneratePdf = () => {
     const doc = new jsPDF({
       format: "a4",
